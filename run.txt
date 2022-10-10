@@ -1,0 +1,3 @@
+cd C:\Users\USER\Documents\PROGRAMAÇÃO\Python Projects\Cards Quantity SetCode Scrapping\setcode\setcode\spiders
+scrapy crawl cardsetcode -O setcode.json
+scrapy crawl sendjson.py

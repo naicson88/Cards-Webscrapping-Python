@@ -1,0 +1,17 @@
+#cmd
+- python -m venv {nome do ambiente}
+- ./{nome do ambiente}/Scripts/activate
+
+pip install scrapy
+pip install requests
+Settar no interpretador o ambiente virtual criado
+scrapy startproject setcode
+cd setcode
+scrapy genspider setcode setcode.com
+
+scrapy shell
+
+fetch('url')
+
+scrapy crawl cardsetcode -O setcode.json #cria o arquivo json
+scrapy crawl sendjson.py #envia para a API o arquivo json
